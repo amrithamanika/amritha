@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image:url("../istockphoto-1453081662-2048x2048.jpg");
+    background-size : cover;}
+header{
+    background-color:black ;
+    height:125px;
+}
+.navigation{
+    float:right;
+    margin-top:40px;
+    margin-right:50px ;
+}
+.navigation a{
+    text-decoration:none;
+    color:white;
+    border:1px solid white;
+    margin:5px; 
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigtion a:hover{
+    background-color: teal;
+    color:black;
+}
+
+#logo{
+    margin-left:10%;
+    margin-top:1% ;
+
+}
+
+/*aside stylimg start*/
+.side{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:100px;
+   /* border:2px solid red;*/
+    float:left;
+
+}
+.side li{
+    padding:2px;
+    list-style-type: square;
+}
+/*aside styling ends*/
+
+/*login styling start*/
+.my_login{
+    border: 2px solid red;
+    float:right;
+    margin-top: 60px;
+    background-color: beige;
+    height:15em; 
+    padding:30px;
+    margin-right:20px;
+}
+.my_login h2{
+    text-align:center;
+}
+#logg{
+    background-color: dodgerblue;
+    width: 100%;
+    border: none;
+    color:white;
+    height: 1.5em;
+
+}
+/*login styling end*/
+
+/*courses styling starts*/
+.container{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:450px ;
+    margin-left:60px ;
+    
+}
+.container pbox{
+    float:left;
+    border:2px solid red;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+    height: 13em;
+
+}
+
+
+/*courses styling end*/
+
+
+
